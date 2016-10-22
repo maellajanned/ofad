@@ -1,11 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -1586,7 +1582,7 @@
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #00EA22 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2135,7 +2131,7 @@
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #00EA22;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2556,8 +2552,13 @@
 				height: 2.5em;
 				line-height: 2.5em;
 				padding: 0 0.5em;
+
 			}
 
+				ul.icons li:first-child{
+						margin-left: 38%;
+
+				}
 				ul.icons li .icon {
 					font-size: 0.8em;
 				}
@@ -2787,7 +2788,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e44c65;
+			background-color: #00B222;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2796,7 +2797,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #e76278;
+				background-color: #00EA22;
 			}
 
 			input[type="submit"].special:active,
@@ -3028,15 +3029,15 @@
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #00FF30;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #00FF30;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #00FF30;
 		}
 
 		.spotlight.inactive .content {
@@ -3263,7 +3264,7 @@
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgba(0, 234, 34, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3301,7 +3302,7 @@
 
 					#header nav ul li a, #header nav ul li span {
 						border: 0;
-						color: inherit;
+						color: #00EA22;
 						display: inline-block;
 						height: inherit;
 						line-height: inherit;
@@ -3319,7 +3320,7 @@
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #00EA22;
 					}
 
 					#header nav ul li > ul {
@@ -3851,7 +3852,7 @@
 				}
 
 					#navPanel .link:hover {
-						color: inherit !important;
+						color: #00EA22 !important;
 					}
 
 					#navPanel .link:first-child {
@@ -4009,4 +4010,4 @@
 						padding: 0;
 					}
 
-	}
+	

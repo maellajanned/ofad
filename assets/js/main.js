@@ -295,6 +295,6 @@
 			$banner
 				._parallax();
 
-		
+	});
 
 })(jQuery);
